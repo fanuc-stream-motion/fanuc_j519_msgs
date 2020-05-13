@@ -14,6 +14,9 @@ add_message_files(
     Command.msg
     IoTypes.msg
     RobotState.msg
+    ThresholdRequest.msg
+    ThresholdResponse.msg
+    ThresholdTypes.msg
 )
 
 generate_messages(
